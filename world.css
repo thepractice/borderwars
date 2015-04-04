@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+}
+
+canvas {
+	position: absolute;
+    top: 0px;
+    left: 0px;
+	z-index: 0;
+	background: #2a7384;
+}
+
+#button1 {
+	position: absolute;
+	z-index: 5;	
+}
+#button2{
+	position: absolute;
+	top: 30px;
+	z-index: 5;	
+}
+
+#button3{
+	position: absolute;
+	z-index: 5;	
+}
+
+#button4{
+	position: absolute;
+	top: 30px;
+	z-index: 5;	
+}
+
+#gameInfo {
+	position: absolute;
+	top: 60px;
+	z-index: 5;
+	color: pink;
+}
+
+#gameInfo2 {
+	position: absolute;
+	top: 90px;
+	z-index: 5;
+	color: white;
+}
