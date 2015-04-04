@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="world.css">
+		<script src="js/app.js"></script>
+			
+	</head>
+	<body>
+		<canvas id="world" onclick='clicker(event, viewingWindow, grid)'></canvas>
+		<button id='button3' onclick='endPlayerTurn()'>End Player Turn</button>
+		<button id='button4' onclick='allocate()'>Allocate Resources</button>
+		<div id='gameInfo'>player 1's turn</div>
+		<div id='gameInfo2' style="width: 150px;">Click a tile to place a flag. The player's borders grow towards the flag. You gain 1 resource per turn per tile owned. Allocate resources each turn between Military and Culture. Culture expands your borders generally. Military helps you take over enemy tiles. Refresh the page to start a new game with a randomly generated map. (Make sure to place a flag on the first turn of each player or the game may bug out.</div>
+	</body>
+</html>
